@@ -1,1 +1,130 @@
 
+/* ========================================
+   RAWAN'S THOUGHTS
+   Plum & Champagne Theme
+   ======================================== */
+
+/* LIGHT MODE */
+:root {
+  --theme: #FAF5F8;
+  --entry: #FFFFFF;
+  --primary: #483348;
+  --secondary: #766677;
+  --tertiary: #E6DCE5;
+  --content: #483348;
+  --code-bg: #F0E9EF;
+  --border: #E7DCE5;
+
+  --accent: #94633E;
+  --accent-hover: #754B2C;
+}
+
+/* DARK MODE */
+.dark {
+  --theme: #251D2B;
+  --entry: #382A3D;
+  --primary: #F4EAF2;
+  --secondary: #C9B5C7;
+  --tertiary: #56445B;
+  --content: #F4EAF2;
+  --code-bg: #322638;
+  --border: #4C3A51;
+
+  --accent: #D6B18C;
+  --accent-hover: #E6C9A8;
+}
+
+/* GENERAL TYPOGRAPHY */
+body {
+  font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  line-height: 1.75;
+}
+
+/* SITE TITLE */
+.logo a {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+/* NAVIGATION */
+#menu a:hover,
+#menu .active {
+  color: var(--accent);
+}
+
+/* HOMEPAGE INTRODUCTION */
+.home-info .entry-header h1 {
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  line-height: 1.25;
+  letter-spacing: -0.8px;
+}
+
+.home-info .entry-content {
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: var(--secondary);
+}
+
+/* SOCIAL ICONS */
+.social-icons a {
+  color: var(--primary);
+  transition: color 0.2s ease;
+}
+
+.social-icons a:hover {
+  color: var(--accent);
+}
+
+/* ARTICLE CARDS */
+.post-entry {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--entry);
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.post-entry:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+}
+
+/* ARTICLE LINKS */
+.post-content a {
+  color: var(--accent);
+  box-shadow: none;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.post-content a:hover {
+  color: var(--accent-hover);
+}
+
+/* TAGS */
+.post-tags a,
+.terms-tags a {
+  background: var(--code-bg);
+  color: var(--primary);
+  border-radius: 6px;
+}
+
+.post-tags a:hover,
+.terms-tags a:hover {
+  background: var(--accent);
+  color: var(--theme);
+}
+
+/* CODE BLOCKS */
+.post-content pre {
+  border-radius: 10px;
+}
+
+/* SELECTION COLOR */
+::selection {
+  background: var(--accent);
+  color: var(--theme);
+}
+
