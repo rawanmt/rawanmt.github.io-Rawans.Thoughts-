@@ -19,8 +19,9 @@
   --accent-hover: #754B2C;
 }
 
-/* DARK MODE */
-.dark {
+
+/* DARK MODE — Plum & Champagne */
+:root[data-theme="dark"] {
   --theme: #251D2B;
   --entry: #382A3D;
   --primary: #F4EAF2;
@@ -28,10 +29,13 @@
   --tertiary: #56445B;
   --content: #F4EAF2;
   --code-bg: #322638;
+  --code-block-bg: #322638;
   --border: #4C3A51;
 
   --accent: #D6B18C;
   --accent-hover: #E6C9A8;
+
+  color-scheme: dark;
 }
 
 /* GENERAL TYPOGRAPHY */
