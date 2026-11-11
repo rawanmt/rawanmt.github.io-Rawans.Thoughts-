@@ -32,3 +32,36 @@ menu:
     - name: Tags
       url: /tags/
       weight: 20
+
+  homeInfoParams:
+    Title: "Curiosity has a way of leading somewhere interesting."
+    Content: >
+      Hi, I'm Rawan. A cybersecurity professional
+      with an analytical mind and a curiosity that
+      extends well beyond technology.
+
+      This is where I document what I learn,
+      explore ideas, and share whatever I find
+      worth thinking about.
+
+menu:
+  main:
+    - identifier: whoami
+      name: Whoami
+      pageRef: /whoami
+      weight: 10
+
+    - identifier: posts
+      name: Posts
+      pageRef: /posts
+      weight: 20
+
+    - identifier: tags
+      name: Tags
+      pageRef: /tags
+      weight: 30
+
+    - identifier: contact
+      name: Contact
+      pageRef: /contact
+      weight: 40
