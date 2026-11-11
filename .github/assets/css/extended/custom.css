@@ -128,3 +128,6 @@ body {
   color: var(--theme);
 }
 
+body {
+  background-color: #251D2B !important;
+}
