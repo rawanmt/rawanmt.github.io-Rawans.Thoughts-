@@ -131,3 +131,39 @@ body {
   background: var(--accent);
   color: var(--theme);
 }
+
+/* Whoami & Contact page styling */
+
+.post-single .post-header {
+  margin-bottom: 32px;
+}
+
+.post-single .post-title {
+  font-size: clamp(2rem, 5vw, 2.7rem);
+  line-height: 1.2;
+  letter-spacing: -0.7px;
+}
+
+.post-content h2 {
+  color: var(--primary);
+  margin-top: 2.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.post-content h3 {
+  color: var(--accent);
+}
+
+.post-content p {
+  line-height: 1.9;
+}
+
+.post-content hr {
+  background: var(--border);
+  margin: 2rem 0;
+}
+
+.post-content a:hover {
+  color: var(--accent-hover);
+}
