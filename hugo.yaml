@@ -1,37 +1,23 @@
 
-baseURL: "https://rawanmt.github.io/"
-languageCode: en-us
+baseURL: "https://rawanmt.github.io/rawanmt.github.io-Rawans.Thoughts-/"
+languageCode: "en-us"
 title: "Rawan's Thoughts"
 theme: ["PaperMod"]
 
 enableRobotsTXT: true
+enableEmoji: true
 
 params:
   env: production
-  description: "Cybersecurity research, notes, and insights"
+  description: "Thoughts on cybersecurity, curiosity, and everything in between."
+  author: "Rawan"
+
   defaultTheme: auto
   ShowReadingTime: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowToc: true
-
-  homeInfoParams:
-    Title: "Welcome to my blog"
-    Content: "Exploring cybersecurity, threat detection, digital forensics, and research."
-
-  socialIcons:
-    - name: github
-      url: "https://github.com/YOUR_USERNAME"
-
-menu:
-  main:
-    - name: Posts
-      url: /posts/
-      weight: 10
-    - name: Tags
-      url: /tags/
-      weight: 20
 
   homeInfoParams:
     Title: "Curiosity has a way of leading somewhere interesting."
@@ -43,6 +29,10 @@ menu:
       This is where I document what I learn,
       explore ideas, and share whatever I find
       worth thinking about.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/rawanmt"
 
 menu:
   main:
